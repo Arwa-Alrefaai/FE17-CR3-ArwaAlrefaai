@@ -1,0 +1,52 @@
+
+.why{
+    color: black;
+    font-family: 'Ms Madi', cursive;
+    text-align: center;
+    font-weight: 550;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.footabout{
+    background-color: rgb(230, 230, 230);
+}
+.textfot{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);    
+    align-items: flex;
+    gap: 100px;
+    margin-left: 200px;
+}
+.c1{
+    margin-bottom: 50px;
+}
+.listfot{
+    display: grid;
+    grid-template-columns: repeat(3,35%);
+    margin-top: 50px;
+    justify-content:flex-start ;
+    text-align: center;
+
+}
+.list-group{
+    width: 70%;
+    color: text-primary;
+    margin-left: 20px;
+    
+    
+}
+.imgfot{
+    width: 80%;
+    
+}
+.mainabout {
+    font-family: 'Ms Madi', cursive;
+    font-size: larger;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 100px;
+}

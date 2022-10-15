@@ -1,0 +1,24 @@
+.headmenu{
+    font-family: 'Ms Madi', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+.container{
+    margin-left: 10%;
+}
+.pric{
+    font-size: medium;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.container{
+    margin-left: 20%;
+}
+.butn{
+    margin-top: 0%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.btn-success{
+    margin-left: 10px;
+}

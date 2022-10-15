@@ -1,0 +1,14 @@
+.orderinput{
+    font-family: 'Ms Madi', cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+.inputn{
+    width: 90%;
+    border-radius: 3px;
+    border-color: lightgray;
+}
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
