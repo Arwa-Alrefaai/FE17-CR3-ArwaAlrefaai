@@ -4,4 +4,6 @@ export interface IProducts {
     description?: string; 
     price: number;
     qtty : number;
+    avilab: boolean ;
+
 }

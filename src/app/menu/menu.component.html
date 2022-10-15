@@ -9,14 +9,17 @@
      <a  routerLink="products/{{productId}}"> <img src={{product.img}} class="card-img-top"></a>
       <div class="card-body">
         <h5 class="card-title">{{product.name}}</h5>
-        <p class="card-text" *ngIf="product.description">{{product.description}}</p>
+        <p class="card-text"> {{product.description}} </p>
       <hr>
       {{product.price  | currency }} 
     <hr>
     </div>
     <div class="butn">
+      <ng-template [ngIf]="product.avilab==false" >
+            <p style="color: red;">This Product is not avalible</p>
+          </ng-template>
         <button type="button" class="btn btn-primary" routerLink="products/{{productId}}">Datails</button>
-        <button type="button" class="btn btn-success">Order</button>
+        <button type="button" class="btn btn-success" (click)="addToCart()">Order</button>
      </div>
     </div>
   </div>

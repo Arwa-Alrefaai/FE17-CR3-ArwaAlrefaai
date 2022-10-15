@@ -4,7 +4,8 @@ import { MenuComponent } from '../menu/menu.component';
 import { IProducts } from '../IProducts';
 import { CartService } from '../cart.service';
 import { FormBuilder } from '@angular/forms';
-
+import { ProductListComponent } from '../product-list/product-list.component';
+import { products } from '../products';
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
