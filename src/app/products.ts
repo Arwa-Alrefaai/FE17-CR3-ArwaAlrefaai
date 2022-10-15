@@ -7,8 +7,8 @@ export const products = [
     qtty :1 ,
     avilab : false
     }, {
-        img: 'assets/imges/piza2.jpg',
-        name: ' ',
+        img: 'assets/imges/pasta1.jpg',
+        name: 'lorem ',
         description: ' fuga reprehenderit tempore quod illo expedita minus aperiam, tempora asperiores voluptas. Exercitationem, similique.',
         price:10 ,
         qtty:2 ,
@@ -16,7 +16,7 @@ export const products = [
 
     }, {
         img: 'assets/imges/piza3.jpg',
-        name: ' ',
+        name: 'voluptatem ',
         description: 'modi quae quam harum ipsam unde voluptatem, magni Lorem ipsum dolor sit amet consectetur reiciendis temporibus! fuga reprehenderit tempore quod illo expedita minus ',
         price: 17,
         qtty:3 ,
@@ -24,7 +24,7 @@ export const products = [
 
     }, {
         img: 'assets/imges/pasta.jpg',
-        name: ' ',
+        name: ' consectetur',
         description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. olor sit amet consectetur adipisicing elit. Repellendus nam illo enim ullam,',
         price:20,
         qtty:4 ,
@@ -32,7 +32,7 @@ export const products = [
 
     }, {
         img: 'assets/imges/pasta1.jpg',
-        name: ' ',
+        name: 'Alias ',
         description: 'autem, obcaecati nostrum quod ipsa tempora minus. Alias, fuga harum?',
         price: 25,
         qtty:5 ,
@@ -40,7 +40,7 @@ export const products = [
 
     }, {
         img: 'assets/imges/sh1.jpg',
-        name: ' ',
+        name: ' magni',
         description: ' eveniet, dolores unde dolorum magni!Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
         price:22 ,
         qtty:6 ,
@@ -48,7 +48,7 @@ export const products = [
 
     }, {
         img: 'assets/imges/sh2.jpg',
-        name: ' ',
+        name: 'quod ',
         description: 'autem, obcaecati nostrum quod ipsa tempora minus. Alias, fuga harum? ',
         price:14 ,
         qtty: 7,

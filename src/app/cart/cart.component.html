@@ -1,10 +1,19 @@
 <h3>Cart</h3>
-<div class="cart-item" style="height:400px ;" *ngFor="let product of items">
-  
-<span>  {{product.img}} </span>
+<!-- <div class="cart-item" style="height: 200px ;" *ngFor="let product of items">
+ <span>  {{product.img}} </span> 
  <span>  {{product.name}}   </span>
 <span>  {{product.price | currency }}  </span> 
-</div>
+</div> -->
+
+ <div style="margin-left: 40px;" *ngFor="let product of items" >
+<span><img src="{{product.img}}" style="margin-right: 20px; width: 90px;">{{ product.price | currency }}</span>
+<hr>
+ 
+
+<!-- <ng-template [ngIf]="product.avilab==true">
+<button (click)="addToCart()">Buy</button>
+</ng-template> -->
+</div> 
 
 
 <div class="container">
